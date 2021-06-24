@@ -72,12 +72,12 @@ class Portfolio extends Component {
                       </a>
                     </div>
                   </div>
-                  <div className="columns portfolio-item">
+                  {/* <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <img alt={projects.title} src=""/>
                       <div style={{ textAlign: "center", fontWeight:"bold" }}>Capstone Project</div>
                     </div>
-                  </div>
+                  </div> */}
               </div>
             </div>
           </div>
