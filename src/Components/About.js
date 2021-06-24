@@ -10,7 +10,7 @@ class About extends Component {
     const state = "Texas";
     const phone = "832-489-6667";
     const email = "randireyna@live.com";
-    const resumeDownload = this.props.data.resumedownload;
+    // const resumeDownload = "https://docs.google.com/document/d/11G2Uxk7JNwOmCSOpTJ4yb61mD8K3p8UKrsMZGWxfj5k/edit";
 
     return (
       <section id="about">
@@ -45,7 +45,7 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="" className="button">
+                    <a href="https://docs.google.com/document/d/11G2Uxk7JNwOmCSOpTJ4yb61mD8K3p8UKrsMZGWxfj5k/edit" className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
